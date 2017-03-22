@@ -1,0 +1,56 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Yantramanav:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+// Our variables
+$base-font-family: "Yantramanav","Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   1.5em;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.6;
+
+$spacing-unit:     30px;
+
+$text-color:       #464141;
+$background-color: #fff;
+$brand-color:      #7E43E5;
+$secondary-color: #FE952D;
+$warning-color: #F4565D;
+$highlight-color: #FFDBA0;
+
+$grey-color:  #9B9B9B;
+$grey-color-dark:       #7B8185;
+$grey-color-light: #F5F5F5;
+
+$font-size-xxxlarge: 42px;
+$font-size-xxlarge: 32px;
+$font-size-xlarge: 24px;
+$font-size-large: 18px;
+$font-size-normal: 16px;
+$font-size-small: 13px;
+
+$device-mobile: 400px;
+$device-phablet: 550px;
+$device-tablet: 750px;
+$device-desktop: 1000px;
+
+
+@import
+        "base",
+        "layout",
+        "mixins",
+        "helpers",
+        "hero",
+        "header",
+        "animate-button",
+        "buttons",
+        "forms",
+        "flash",
+        "breadcrumbs",
+        "tables",
+        "welcome",
+        "cart",
+        "loader"
+;

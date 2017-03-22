@@ -1,0 +1,38 @@
+table{
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.table{
+  width: 100%;
+  max-width: 100%;
+  td{
+    padding: 10px;
+    line-height: $base-line-height;
+    vertical-align: middle;
+  }
+}
+.table-striped{
+  tr:nth-of-type(even){
+    background-color: $grey-color-light;
+  }
+}
+.table-domain-offers{
+  
+  thead{
+    background-color: $secondary-color;
+    color: #fff;
+    th{
+      padding: 15px 30px;
+      text-align: left;
+      white-space: nowrap;
+    }
+  }
+  td{
+    padding: 30px;
+  }
+}
+.table-responsive{
+  overflow-y: hidden;
+  overflow-x: auto;
+  min-height: .01%;
+}

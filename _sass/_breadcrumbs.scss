@@ -1,0 +1,61 @@
+ul.breadcrumbs{
+  display: block;  
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+li.breadcrumb-item{
+  opacity: .4;
+  display: inline-block;
+  text-align: center;
+  font-size: $font-size-small;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  .icon{
+    display: block;
+    margin: 0 auto 20px;
+    position: relative;
+  }
+  &.checked{
+    opacity: 1;
+    .icon{
+      &:after{
+        content: "";
+        width: 20px;
+        height: 18px;
+        background-repeat: no-repeat;
+        background-image: url('../images/green-check.svg');
+        background-size: 100%;
+        position: absolute;
+        bottom: -10px;
+      }  
+    }
+    
+  }
+  &.current{
+    opacity: 1;
+  }
+}
+
+@media (max-width: $device-desktop){
+  ul.breadcrumbs{
+    white-space: nowrap;
+  }
+  li.breadcrumb-item{
+    display: none;
+    &.current{
+      display: block;
+    }
+  }
+}
+@media (max-width: $device-mobile){
+  ul.breadcrumbs{
+    white-space: nowrap;
+  }
+  li.breadcrumb-item{
+    &.current{
+      text-align: left;
+    }
+  }
+}

@@ -1,0 +1,124 @@
+.home-hero{
+  background-image: linear-gradient(134deg, #2F4BE1 0%, #8641E6 100%);
+  min-height: 420px;
+  padding: 40px 0;
+  position: relative;
+  color: #fff;
+  &:before{
+    background-image: url('../images/dotted-map.png');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+.hero-content{
+  position: relative;
+  color: #fff;
+  margin-top: 5%;
+  font-size: 1.2em;
+  h1{
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    font-size: 52px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 50px;
+  }
+}
+// HERO INPUT
+.hero-input-container{
+  position: relative;
+}
+
+.hero-input{
+  @include flex;
+  height: 48px;
+  margin-bottom: 20px;
+  input[type=text]{
+    border: none;
+    outline: none;
+    font-size: $font-size-normal;
+    min-width: 260px;
+  }
+  .hero-input--prefix{
+    color: $grey-color;
+    padding: 10px;
+    background-color: #fff;
+    font-size: $font-size-large;
+  }
+  .hero-input--cta{
+    .button--hero{
+      margin-bottom: 0;
+      font-size: $font-size-large;
+    }
+  }
+}
+// ESCROW.COM
+.escrow-section{
+  text-align: center;
+  small{
+    position: relative;
+    z-index: 2;
+  }
+}
+.escrow-violator{
+  background-image: url('../images/escrow-violator.png');
+  background-size: 100%;
+  width: 137px;
+  height: 137px;
+  margin: -50px auto -20px;
+  position: relative;
+  z-index: 1;
+  
+}
+
+/* Larger than mobile */
+
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (max-width: $device-phablet) {
+  .home-hero{
+    padding: 20px 0 40px;
+  }
+  .hero-content{
+    h1{
+      font-size: 2em;
+      margin-bottom: 30px;
+    }
+  }
+  
+}
+
+/* Larger than tablet */
+@media (max-width: $device-tablet) {
+  .home-hero{
+    min-height: 500px;
+  }
+  .hero-input{
+    display: block;
+    input[type='text']{
+      display: block;
+      padding: 15px;
+      box-sizing: border-box;
+      margin: 0 0 20px 0;
+      min-width: 100%;
+    }
+    .hero-input--prefix{
+      display: none;
+    }
+  }
+  .hero-input{
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: $device-desktop) {
+  .home-hero{
+    min-height: 500px;
+  }
+}

@@ -1,0 +1,40 @@
+input[type=text],
+input[type=email]{
+  padding: 10px;
+  background-color: white;
+  border: 1px solid $grey-color;
+  outline: none;
+  &:focus{
+    border-color: $brand-color;
+  }
+}
+.form-group{
+  label{
+    display: block;
+    font-weight: 700;
+  }
+  margin-bottom: 30px;
+  &.has-error{
+    input[type=text]{
+      border-color: $warning-color;
+    }
+    .text-error{
+      margin-top: 10px;
+    }
+  }
+}
+
+
+// CONTACT FORM
+.contact-form{
+  label,
+  input[type=text]
+  {
+    font-size: $font-size-large;
+  }
+  input[type=text]{
+    padding: 15px;
+    min-width: 280px;
+  }
+
+}

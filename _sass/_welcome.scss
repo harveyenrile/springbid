@@ -1,0 +1,53 @@
+
+.brand-logos{
+  text-align: center;
+  img{
+    margin: 10px;
+    
+  }
+}
+.as-seen-in{
+  margin-bottom: 50px; 
+}
+.stats-tile{
+  @include flex();
+  border-top: 1px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color-light;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .stats{
+    @include flex-grow(1);
+    text-align: center;
+    padding: 50px;
+    &:first-child{
+      border-right: 1px solid $grey-color-light;
+    }
+    &:last-child{
+      border-left: 1px solid $grey-color-light;
+    }
+  }
+  h3{
+    font-weight: 100;
+    font-size: 52px;
+    color: $brand-color;
+  }
+}
+
+@media (max-width: $device-tablet) {
+  .stats-tile{
+    display: block;
+    h3{
+      font-size: 32px;
+    }
+    .stats{
+      display: block;
+      padding: 20px;
+    }
+  }
+}
+
+@media (max-width: $device-mobile) {
+  .add-another-domain{
+    display: block;
+  }
+}

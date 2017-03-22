@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-787.000000, -423.000000)" fill="#FFFFFF">
+            <g id="Hero">
+                <g id="Hero--content" transform="translate(202.000000, 136.000000)">
+                    <g id="Domain-input" transform="translate(0.000000, 264.000000)">
+                        <g id="button-cta" transform="translate(459.000000, 0.000000)">
+                            <g id="Group-2" transform="translate(17.000000, 18.000000)">
+                                <path d="M125.399301,13.4627761 L109.850599,13.4627761 L109,13.4627761 L109,11.761579 L109.850599,11.761579 L125.270052,11.761579 L120.564605,6.78697767 L119.98009,6.16902878 L121.215988,5 L121.800503,5.6179489 L127.611728,11.761579 L127.713168,11.761579 L127.713168,11.868822 L127.815143,11.9766293 L128.399657,12.5945782 L128.28427,12.7037224 L128.4,12.8162001 L127.807167,13.4261737 L121.792527,19.6147241 L121.199695,20.2246977 L119.979748,19.0390333 L120.57258,18.4290596 L125.399301,13.4627761 Z" id="Combined-Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
