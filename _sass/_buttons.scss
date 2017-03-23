@@ -71,6 +71,9 @@
     margin-right: 5px;
   }
 }
+.button--reject{
+  font-weight: normal !important;
+}
 @media (max-width: $device-tablet) {
   .button--hero{
     width: 100%;
