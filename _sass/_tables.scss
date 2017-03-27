@@ -31,15 +31,26 @@ table{
     padding: 30px;
   }
 }
-.table-responsive{
-  overflow-y: hidden;
-  overflow-x: auto;
-  min-height: .01%;
+// .table-responsive{
+//   overflow-y: hidden;
+//   overflow-x: auto;
+//   min-height: .01%;
 
-}
+// }
 
 @media (max-width: $device-tablet){
   .table-responsive{
-    box-shadow: inset -3px 0 10px rgba(0,0,0,.2);
+    // box-shadow: inset -3px 0 10px rgba(0,0,0,.2);
+    tbody tr, thead tr{
+      display: block;
+    }
+    .table-domain-offers td{
+      display: block;
+      padding: 15px;
+      
+    }
+    .table-domain-offers th:nth-child(2){
+      display: none;
+    }
   }  
 }
