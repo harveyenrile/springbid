@@ -4,6 +4,7 @@ input[type=email]{
   background-color: white;
   border: 1px solid $grey-color;
   outline: none;
+  border-radius: 0;
   &:focus{
     border-color: $brand-color;
   }

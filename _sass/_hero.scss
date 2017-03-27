@@ -92,7 +92,6 @@
       margin-bottom: 30px;
     }
   }
-  
 }
 
 /* Larger than tablet */
@@ -113,8 +112,11 @@
       display: none;
     }
   }
+  .add-another-domain{
+    // margin-top: 100px;
+  }
   .hero-input{
-    margin-bottom: 100px;
+    height: auto;
   }
 }
 
