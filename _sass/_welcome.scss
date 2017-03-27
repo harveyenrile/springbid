@@ -35,7 +35,20 @@
     color: $brand-color;
   }
 }
-
+.bulk-domains-input{
+  display: none;
+  .hero-input--cta{
+    .button--hero{
+      font-size: 18px;
+      display: block;
+    }
+  }
+}
+.add-another-domain{
+  margin-bottom: 20px;
+  display: table;
+  cursor: pointer;
+}
 @media (max-width: $device-tablet) {
   .stats-tile{
     display: block;

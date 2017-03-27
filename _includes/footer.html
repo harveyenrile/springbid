@@ -8,5 +8,12 @@
     $('.button--primary').click(function(){
       $('.loader-overlay').css('display','block');
     });
+
+    var InputField= "<div class='hero-input'><div class='hero-input--prefix'>www.</div><input type='text' placeholder='example.com'></div>";
+    $('.add-another-domain').click(function(){
+      $('.single-domain-input').hide();
+      $('.bulk-domains-input').css('display','block');
+      $('.hero-input-inc').append(InputField);
+    });
   });
 </script>

@@ -21,7 +21,7 @@ layout: home
           
           <div class="hero-input-container">
             <small>We only accept .com domains</small>
-            <div class="hero-input">
+            <div class="hero-input single-domain-input">
               <div class="hero-input--prefix">www.</div>
               <input type="text" placeholder="example.com">
               <div class="hero-input--cta">
@@ -32,8 +32,26 @@ layout: home
                 </button>  
               </div>            
             </div>
-            <a class="add-another-domain">+ Add another domain</a>
+
+            <div class="bulk-domains-input">
+              <div class="hero-input-inc">
+                <div class="hero-input">
+                  <div class="hero-input--prefix">www.</div>
+                  <input type="text" placeholder="example.com">
+                </div>  
+              </div>   
+              
+              <div class="hero-input--cta">
+                <button class="button button--hero clickable">
+                  <input class="toggle" type="checkbox"/>
+                  <div class="anim"></div>
+                  <span>See Offer <img src="images/arrow-right-white.svg" width="15" alt=""></span>
+                </button>  
+              </div>            
+            </div>            
           </div>
+
+          <a class="add-another-domain">+ Add another domain</a>
         </div>
         
       </div>
