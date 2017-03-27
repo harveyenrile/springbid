@@ -6,8 +6,8 @@
   color: #fff;
   &:before{
     background-image: url('../images/dotted-map.png');
-    background-size: 70%;
-    background-position: center;
+    background-size: 800px;
+    background-position: top center;
     background-repeat: no-repeat;
     content: "";
     position: absolute;
@@ -98,6 +98,9 @@
 @media (max-width: $device-tablet) {
   .home-hero{
     min-height: 500px;
+    &:before{
+      background-size: 400px;
+    }
   }
   .hero-input{
     display: block;
